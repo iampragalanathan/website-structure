@@ -171,4 +171,5 @@ nav a:focus {
 .article-recent{
 
     display: flex;
+    flex-direction: column;
 }
