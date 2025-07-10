@@ -27,6 +27,10 @@ h1,h2,h3{
     font-weight: 400;
     color: #143774;
 }
+h2,h3{
+
+    margin-top: 0;
+}
 
 .subtitle {
     font-weight: 700;
@@ -92,18 +96,7 @@ header {
 img{
     max-width: 100%;
 }
-@media(min-width:675px){
 
-    .container-flex{
-        flex-direction: row;
-    }
-    main{
-        width: 75%;
-    }
-    aside{
-        width: 20%;
-    }
-}
 /* @media (max-width: 675px) {
     .container-flex {
         flex-direction: column;
@@ -147,15 +140,7 @@ nav a:focus {
     color: #707070;
 }
 
-@media (max-width: 675px) {
-    nav ul {
-        flex-direction: column;
-    }
-    
-    nav li {
-        margin: .5em 0;
-    }
-}
+
 
 .article-info{
 
@@ -183,4 +168,25 @@ nav a:focus {
 .article-recent-main{
 
     order: 2;
+}
+@media(min-width:675px){
+
+    .container-flex{
+        flex-direction: row;
+    }
+    main{
+        width: 75%;
+    }
+    aside{
+        width: 20%;
+    }
+}
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav li {
+        margin: .5em 0;
+    }
 }
