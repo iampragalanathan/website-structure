@@ -63,7 +63,10 @@ a:hover,a:focus{
 
     color: #143774;
 }
+strong{
 
+    font-weight: 700;
+}
 
 /* =================
 Layout
