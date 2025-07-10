@@ -180,6 +180,9 @@ nav a:focus {
     aside{
         width: 20%;
     }
+    .article-recent{
+        flex-direction: row;
+    }
 }
 @media (max-width: 675px) {
     nav ul {
