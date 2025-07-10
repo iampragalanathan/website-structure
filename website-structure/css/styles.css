@@ -174,3 +174,11 @@ nav a:focus {
     flex-direction: column;
    
 }
+.article-recent-secondary{
+         
+    order: 1;
+}
+.article-recent-main{
+
+    order: 2;
+}
