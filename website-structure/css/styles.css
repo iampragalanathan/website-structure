@@ -57,6 +57,7 @@ h1,h2,h3{
 }
 a{
     color:#1792d2 ;
+    font-weight: 400;
 }
 a:hover,a:focus{
 
