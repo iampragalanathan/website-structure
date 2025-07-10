@@ -160,6 +160,7 @@ nav a:focus {
 .article-info{
 
     margin: 2em 0px;
+
 }
 .article-featured{
 
@@ -172,6 +173,7 @@ nav a:focus {
 
     display: flex;
     flex-direction: column;
+    margin-bottom: 2em;
    
 }
 .article-recent-secondary{
