@@ -89,11 +89,19 @@ header {
     padding: 2em 0;
     text-align: center;
 }
-
+img{
+    max-width: 100%;
+}
 @media(min-width:675px){
 
     .container-flex{
         flex-direction: row;
+    }
+    main{
+        width: 75%;
+    }
+    aside{
+        width: 20%;
     }
 }
 /* @media (max-width: 675px) {
