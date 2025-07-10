@@ -161,3 +161,14 @@ nav a:focus {
 
     margin: 2em 0px;
 }
+.article-featured{
+
+    border-bottom: 1px solid #707070;
+    padding: 2em;
+    margin-bottom: 2em;
+   
+}
+.article-recent{
+
+    display: flex;
+}
