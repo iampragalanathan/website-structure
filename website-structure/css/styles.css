@@ -208,6 +208,8 @@ nav a:focus {
     }
     aside{
         width: 20%;
+        min-width: 200px;
+        margin-left: 1em;
     }
     .article-recent{
         flex-direction: row;
@@ -233,4 +235,21 @@ nav a:focus {
 
         object-position: left;
     }
+}
+
+.widget-title,.widget-recent-post-title{
+    font-size: 1rem;
+}
+
+.widget-title{
+
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sidebar-widget{
+
+    border: 20px solid #efefef;
+    padding: 1em;
+    margin-bottom: 2em;
 }
