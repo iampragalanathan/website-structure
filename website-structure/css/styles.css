@@ -287,3 +287,12 @@ nav a:focus {
 
     order: -1;
 }
+
+footer{
+
+    background-color: #143774;
+    /* color: white; */
+    color: rgba(150, 200, 250,1 );
+    text-align: center;
+    padding: 3em  0;
+}
