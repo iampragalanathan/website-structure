@@ -164,6 +164,7 @@ nav a:focus {
 .article-recent-secondary{
          
     order: 1;
+
 }
 .article-recent-main{
 
@@ -182,6 +183,15 @@ nav a:focus {
     }
     .article-recent{
         flex-direction: row;
+        justify-content: space-between;
+    }
+    .article-recent-main{
+
+        width: 68%;
+    }
+    .article-recent-secondary{
+
+        width: 32%;
     }
 }
 @media (max-width: 675px) {
