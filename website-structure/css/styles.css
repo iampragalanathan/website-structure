@@ -9,6 +9,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
+    line-height: 1.6;
 }
 
 /* =================
@@ -245,6 +246,7 @@ nav a:focus {
 .widget-title,.widget-recent-post-title{
 
     font-size: 1rem;
+    line-height: 1.4;
 }
 
 .widget-title{
