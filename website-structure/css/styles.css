@@ -235,9 +235,13 @@ nav a:focus {
 
         object-position: left;
     }
+ 
+
+    
 }
 
 .widget-title,.widget-recent-post-title{
+
     font-size: 1rem;
 }
 
@@ -247,9 +251,22 @@ nav a:focus {
     font-family: 'Ubuntu', sans-serif;
 }
 
+
+
 .sidebar-widget{
 
     border: 20px solid #efefef;
     padding: 1em;
     margin-bottom: 2em;
+}
+
+.widget-recent-post{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.widget-image{
+
+    order: -1;
 }
